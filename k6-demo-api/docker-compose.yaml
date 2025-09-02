@@ -1,0 +1,10 @@
+services:
+  k6-demo-api:
+    container_name: k6-demo-api
+    image: k6-demo-api:1.0.0
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    mem_limit: 256m
+    cpus: 1
