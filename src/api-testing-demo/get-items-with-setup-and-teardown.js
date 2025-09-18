@@ -3,7 +3,7 @@ import { check, fail } from 'k6';
 
 // options for the test
 export const options = {
-  vus: 100,
+  vus: 1000,
   duration: '5s',
 };
 

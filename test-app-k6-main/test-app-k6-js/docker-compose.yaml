@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: test-app-k6-js
+    image: test-app-k6-js:1.0.0
+    ports:
+      - "8001:8001"
+    mem_limit: 256m
+    cpus: 1
