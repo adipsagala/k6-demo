@@ -1,0 +1,14 @@
+services:
+    portainer:
+        container_name: portainer
+        image: portainer/portainer-ce:2.29.0
+        ports:
+            - 8888:8000
+            - 9443:9443
+        restart: always
+        volumes:
+            - /var/run/docker.sock:/var/run/docker.sock
+            - portainer_database:/data
+volumes:
+    portainer_database:
+        name: portainer_database

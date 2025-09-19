@@ -1,0 +1,22 @@
+{
+  "name": "test-script-k6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-triwicaksono:tri-wicaksono/test-script-k6.git"
+  },
+  "author": "Tri Wicaksono",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "k6": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/k6": "^1.0.2"
+  }
+}
